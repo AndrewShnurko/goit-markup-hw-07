@@ -1,0 +1,104 @@
+
+.section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.staff {
+
+    margin-top: 50px;
+    display: flex;
+   
+}
+.pic-staff {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+
+&:not(:last-child) {
+
+        margin-right: 30px;
+    }
+}
+
+
+
+
+.div-part {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.participant {
+   color: var(--title-text-color);
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.part-aby {
+    margin-top: 10px;
+    color: var(--accent-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+
+
+.team-contact-list {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+    
+}
+.team-contact-item {
+    width: 44px;
+    height: 44px;
+}
+
+.team-contact-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus{
+   background-color: var(--primary-text-color);
+}
+
+&:hover .team-contact-icon,
+&:focus .team-contact-icon{
+fill: var(--title-accent-color);
+}
+
+
+}
+
+
+
+.team-contact-icon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
