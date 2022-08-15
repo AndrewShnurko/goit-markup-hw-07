@@ -3,12 +3,12 @@
     padding-bottom: 94px;
 }
 
-.ab-op {
+.abilities {
     display: flex;
 
 }
 
-.ab-list {
+.abilities__items{
     width: 270px;
 
     &:not(:last-child) {
@@ -16,7 +16,7 @@
         }
 }
 
-.ab-div {
+.abilities__box{
     display: flex;
   align-items: center;
     justify-content: center;
@@ -30,14 +30,16 @@
 }
 
 
-.ability-icon {
+.abilities__icon {
 display: flex;
 }
 
-
-
-.ability-option{
+.ab-option {
     margin-bottom: 10px;
+}
+
+.abilities__option{
+   
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -46,7 +48,7 @@ display: flex;
     text-transform: uppercase;
 }
 
-.ability-text {
+.abilities__text {
     color: var(--accent-color);
     font-weight: 400;
     font-size: 14px;

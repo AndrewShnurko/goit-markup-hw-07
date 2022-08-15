@@ -233,18 +233,18 @@ button {
   padding-bottom: 94px;
 }
 
-.ab-op {
+.abilities {
   display: flex;
 }
 
-.ab-list {
+.abilities__items {
   width: 270px;
 }
-.ab-list:not(:last-child) {
+.abilities__items:not(:last-child) {
   margin-right: 30px;
 }
 
-.ab-div {
+.abilities__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,12 +255,15 @@ button {
   border-radius: 5px;
 }
 
-.ability-icon {
+.abilities__icon {
   display: flex;
 }
 
-.ability-option {
+.ab-option {
   margin-bottom: 10px;
+}
+
+.abilities__option {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -269,7 +272,7 @@ button {
   text-transform: uppercase;
 }
 
-.ability-text {
+.abilities__text {
   color: var(--accent-color);
   font-weight: 400;
   font-size: 14px;
@@ -578,10 +581,10 @@ button {
   padding-bottom: 25px;
 }
 
-.port-hero {
+.portfolio-button__hero-button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.port-hero:hover, .port-hero:focus {
+.portfolio-button__hero-button:hover, .portfolio-button__hero-button:focus {
   color: white;
   background-color: var(--primary-text-color);
 }
@@ -595,7 +598,7 @@ button {
   margin-right: 8px;
 }
 
-.port-hero {
+.portfolio-button__hero-button {
   background-color: #F5F4FA;
   color: #212121;
   border: none;
@@ -608,7 +611,7 @@ button {
   letter-spacing: 0.06em;
 }
 
-.div-cont {
+.port-list__flex-box {
   display: flex;
 }
 
@@ -629,7 +632,7 @@ button {
   letter-spacing: 0.06em;
 }
 
-.paragraph-gallery {
+.port-list__paragraph-gallery {
   color: var(--accent-color);
   font-weight: 400;
   font-size: 16px;
@@ -641,12 +644,12 @@ button {
   border: 1px solid #EEEEEE;
 }
 
-.team-list-img {
+.port-list__img {
   position: relative;
   overflow: hidden;
 }
 
-.overlay {
+.port-list__overlay {
   background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
   top: 0;
@@ -658,7 +661,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay {
+.port-list__overlay {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -666,28 +669,28 @@ button {
   color: #FFFFFF;
 }
 
-.li-port {
+.port-list__item {
   border: #F5F4FA;
   margin-right: 30px;
   margin-bottom: 30px;
   position: relative;
 }
 
-.li-port {
+.port-list__item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.li-port:hover, .li-port:focus {
+.port-list__item:hover, .port-list__item:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.photo-text {
+.port-list__box-text {
   padding: 20px 24px;
 }
 
-.team-list-wrapper {
+.port-list__wrapper {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-list-wrapper:hover .overlay, .team-list-wrapper:focus .overlay {
+.port-list__wrapper:hover .port-list__overlay, .port-list__wrapper:focus .port-list__overlay {
   transform: translate(0, 0);
   color: #FFFFFF;
 }
